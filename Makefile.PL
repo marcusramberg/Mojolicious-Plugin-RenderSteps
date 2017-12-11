@@ -9,6 +9,7 @@ WriteMakefile(
   AUTHOR       => 'Marcus Ramberg <mramberg@cpan.org>',
   PREREQ_PM    => {'Mojolicious' => '6.10'},
   test         => {TESTS => 't/*.t'},
+  LICENSE      => 'artistic_2',
   META_MERGE   => {
     resources => {
       license => 'http://www.opensource.org/licenses/artistic-license-2.0',
